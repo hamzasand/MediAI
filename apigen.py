@@ -1,9 +1,11 @@
+##### Generate the question and answers dataset for fintunening
 from fastapi import FastAPI, HTTPException, Depends
 from fastapi.security import OAuth2PasswordBearer
 from pydantic import BaseModel
 import openai
 
 # Set your OpenAI API key
+# As well check out the openai documentation
 openai.api_key = ""
 
 # OAuth2 configuration
