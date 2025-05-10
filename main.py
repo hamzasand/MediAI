@@ -1,8 +1,6 @@
 import openai
-
 # Set your OpenAI API key
 openai.api_key = ""
-
 def ask_medical_bot(user_query):
     """
     This function takes the user's query and generates a response using OpenAI's GPT model.
@@ -15,6 +13,7 @@ def ask_medical_bot(user_query):
     """
     try:
         # Define the messages for the chat-based model
+        # Can be change according your requirements as want assign a role for your purpose
         messages = [
             {"role": "system", "content": (
                 "You are a highly knowledgeable, empathetic, and professional medical assistant. "
