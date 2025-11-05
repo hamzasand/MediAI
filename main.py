@@ -26,7 +26,7 @@ def ask_medical_bot(user_query):
         response = openai.ChatCompletion.create(
             model="gpt-3.5-turbo",  # Use gpt-4 if available and desired
             messages=messages,
-            temperature=0.7,  # Adjust creativity level
+            temperature=0.7,  # Adjust creativitylevel
         )
         
         # Extract and return the response text
