@@ -5,7 +5,6 @@ def ask_medical_bot(user_query):
     This function takes the user's query and generates a response using OpenAI's GPT model.
     Args:
         user_query (str): The user's question or query.
-        
     Returns:
         str: The chatbot's response.
     """
