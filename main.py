@@ -11,7 +11,7 @@ def ask_medical_bot(user_query):
         str: The chatbot's response.
     """
     try:
-        # Define the messages for the chat-based model
+        # Define the messages for the chat-based  model
         # Can be change according your requirements as want assign a role for your purpose
         messages = [
             {"role": "system", "content": (
