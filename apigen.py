@@ -5,6 +5,7 @@ from fastapi import FastAPI, HTTPException, Depends
 from fastapi.security import OAuth2PasswordBearer
 
 from pydantic import BaseModel
+
 import openai
 
 # Set your OpenAI API key or make .env file
