@@ -5,7 +5,6 @@ from fastapi.security import OAuth2PasswordBearer
 from pydantic import BaseModel
 import openai
 
-
 # Set your OpenAI API key or make .env file
 # As well check out the openai documentation
 openai.api_key = ""
