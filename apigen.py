@@ -8,7 +8,6 @@ import openai
 # Set your OpenAI API key or make .env file
 # As well check out the openai documentation
 openai.api_key = ""
-
 # OAuth2 configuration
 oauth2_scheme = OAuth2PasswordBearer(tokenUrl="token")
 
