@@ -48,6 +48,7 @@ if __name__ == "__main__":
         if user_input.lower() == 'exit':
             print("Goodbye! Stay healthy!")
             break
+
         
         # Get response from the bot
         bot_response = ask_medical_bot(user_input)
