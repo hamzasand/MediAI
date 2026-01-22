@@ -1,3 +1,4 @@
+
 import openai
 openai.api_key = ""
 def ask_medical_bot(user_query):
