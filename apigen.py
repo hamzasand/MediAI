@@ -3,6 +3,7 @@ from fastapi import FastAPI, HTTPException, Depends
 
 from fastapi.security import OAuth2PasswordBearer
 from pydantic import BaseModel
+
 import openai
 
 
